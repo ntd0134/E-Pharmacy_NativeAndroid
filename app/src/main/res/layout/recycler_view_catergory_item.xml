@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_button"
+    android:layout_marginHorizontal="@dimen/component_spacing"
+    android:layout_marginBottom="@dimen/component_spacing"
+    android:padding="@dimen/component_spacing">
+
+    <TextView
+        android:id="@+id/txt_item_category_name"
+        android:text="Name"
+        android:textSize="@dimen/main_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

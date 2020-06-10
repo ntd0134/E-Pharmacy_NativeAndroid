@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/app_bar_gallery"
+        android:icon="@drawable/ic_unarchive_black_24dp"
+        app:showAsAction="always"
+        android:title="list"/>
+    <item android:id="@+id/app_bar_list"
+        android:icon="@drawable/ic_list_dark_primary_24dp"
+        app:showAsAction="always"
+        android:title="list"/>
+    <item android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_dark_primary_24dp"
+        app:showAsAction="always"
+        android:title="Search"/>
+</menu>
